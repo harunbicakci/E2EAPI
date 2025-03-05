@@ -1,6 +1,6 @@
 package models;
 
-public class PojoBook {
+public class Book {
 
     private String isbn;
     private String title;

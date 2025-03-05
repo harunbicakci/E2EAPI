@@ -1,6 +1,6 @@
 package models;
 
-public class PojoPersona {
+public class Persona {
 
     private String userId;
     private String username;
@@ -8,7 +8,7 @@ public class PojoPersona {
     private String token;
 
     // Constructorrs
-    public PojoPersona(String username, String password){
+    public Persona(String username, String password){
         this.username = username;
         this.password = password;
     }
